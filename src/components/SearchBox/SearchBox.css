@@ -1,0 +1,53 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    transition: 0.8s 0.5s
+}
+
+.search-container-center {
+    top: 50%;
+}
+
+.search-container-top {
+    top: 0%;
+}
+
+.search-input {
+    min-width: 500px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 10px 15px 10px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+}
+
+.search-input::placeholder {
+    color: #c5c5c5;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.getweatherBtn {
+    margin-left: 10px;
+    padding: 6px 17px;
+    font-size: 1.2rem;
+    border-radius: 16px;
+    border: 2px solid black;
+    background: rgb( 0, 88, 138, 0.8);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.getweatherBtn:hover {
+    background: rgb( 12, 167, 255, 0.8);
+}
+
+.getweatherBtn:focus {
+    outline: none;
+}
