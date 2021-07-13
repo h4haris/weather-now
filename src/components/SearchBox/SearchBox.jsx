@@ -10,7 +10,7 @@ const SearchBox = ({ onSubmitClick }) => {
   //   textEmpty: true,
   // };
 
-  const APIKEY = "a1fa4db70938102cc249c6f256af961a";
+  const APIKEY = process.env.OPEN_WEATHER_APP_API_KEY;
 
   async function getWeatherData(e) {
     e.preventDefault();
