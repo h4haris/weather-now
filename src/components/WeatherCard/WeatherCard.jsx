@@ -4,7 +4,7 @@ import "./WeatherCard.css";
 function WeatherCard(props) {
   const { data } = props; //Destructuring props.data
   const iconurl =
-    "http://openweathermap.org/img/wn/" +
+    "https://openweathermap.org/img/wn/" +
     `${data.cod != 404 ? data.weather[0].icon : null}` +
     ".png";
 
